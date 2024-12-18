@@ -1,0 +1,198 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/food"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rafi's Delivery App"
+            android:textSize="22dp"
+            android:layout_marginTop="15dp"
+            android:textStyle="italic"
+            android:textColor="#E46138"/>
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Search for dishes or restaurents"/>
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="18dp"
+            android:text="Featured Dishes"/>
+
+       <HorizontalScrollView android:layout_height="wrap_content"
+           android:layout_width="match_parent">
+
+           <LinearLayout android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:layout_marginTop="20dp">
+
+               <ImageView
+
+                   android:layout_width="120dp"
+                   android:layout_height="120dp"
+                   android:src="@drawable/burger"/>
+
+               <ImageView
+                   android:layout_marginLeft="20dp"
+                   android:layout_width="120dp"
+                   android:layout_height="120dp"
+                   android:src="@drawable/chiken"/>
+
+               <ImageView
+                   android:layout_marginLeft="20dp"
+                   android:layout_width="120dp"
+                   android:layout_height="120dp"
+                   android:src="@drawable/shake"/>
+
+               <ImageView
+                   android:layout_marginLeft="20dp"
+                   android:layout_width="120dp"
+                   android:layout_height="120dp"
+                   android:src="@drawable/kfc"/>
+
+               <ImageView
+                   android:layout_marginLeft="20dp"
+                   android:layout_width="120dp"
+                   android:layout_height="120dp"
+                   android:src="@drawable/vanila"/>
+
+               <ImageView
+                   android:layout_marginLeft="20dp"
+                   android:layout_width="120dp"
+                   android:layout_height="120dp"
+                   android:src="@drawable/bdf"/>
+
+           </LinearLayout>
+
+       </HorizontalScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Biriyani"
+            android:layout_marginTop="13dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/bg"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_marginLeft="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="burger"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/bg"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_marginLeft="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shakes"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/bg"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="18dp"
+            android:text="Popular Dishes"/>
+
+    </LinearLayout>
+
+    <ScrollView android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="30dp"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/bdf"/>
+
+            <ImageView
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="30dp"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/vanila"/>
+
+            <ImageView
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="30dp"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/shake"/>
+
+            <ImageView
+                android:layout_marginLeft="70dp"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/kfc"
+                android:layout_marginTop="30dp"/>
+            <ImageView
+                android:layout_marginLeft="70dp"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/burger"
+                android:layout_marginTop="30dp"/>
+
+            <ImageView
+                android:layout_marginLeft="70dp"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/chiken"
+                android:layout_marginTop="30dp"/>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>
